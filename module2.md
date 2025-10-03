@@ -4,7 +4,7 @@ Training model is about:
 - search the optimal model paramete to minimize the loss function, but with billions of parameters and data, the optimization is really very expensive.
 
 # Ideas used in traing
-1. Gradient desent
+## 1. Gradient desent
 
 **Gradient desent**: start with some (w,b), keep changing w,b a bit to reduece the cost function until the cost function settles at or near a minimum.  
   w = w - learning rate * derivative of cost fuunction over w
@@ -15,7 +15,7 @@ Training model is about:
 
 **Stochastic gradient descent**: we randomly sample one data point or a batch of data points. -> quick, used in practice 
 
-2. Momentum
+## 2. Momentum
    Gradient desent can vary dramatically across iterations because we use not use the whole data set to calculate. Momentum helps smooth out    noise and accelerate progress.
    w = w - learning rate * momentum
    momentum = momentum * a + (1 - a) * batch gradients
