@@ -26,5 +26,5 @@ Or use the softsign where x divide the absoluate value of x
 
 Adam: is an "adaptive" variant of softsign momentum
 
-## 4. Weight Decay: REgularization and Constraint
+## 4. Weight Decay: Regularization and Constraint
 To prevent overfitting, it is common to use L2 regularization. In addition to optimize the loss function, we add L2 penalty into the loss.
