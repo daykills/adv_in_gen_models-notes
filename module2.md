@@ -19,4 +19,12 @@ Training model is about:
    Gradient desent can vary dramatically across iterations because we use not use the whole data set to calculate. Momentum helps smooth out    noise and accelerate progress.
    w = w - learning rate * momentum
    momentum = momentum * a + (1 - a) * batch gradients
-   
+
+## 3. Normalizing Gradients
+Often some coordinates have much larger magnitude. To resolve this problem, we just need the sign of gradient or momentum, ingore the magnitude.
+Or use the softsign where x divide the absoluate value of x
+
+Adam: is an "adaptive" variant of softsign momentum
+
+## 4. Weight Decay: REgularization and Constraint
+To prevent overfitting, it is common to use L2 regularization. In addition to optimize the loss function, we add L2 penalty into the loss.
