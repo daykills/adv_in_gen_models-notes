@@ -1,4 +1,4 @@
-# Optimization
+# Part 1: Optimization
 Training model is about:
 - formulate the loss function
 - search the optimal model paramete to minimize the loss function, but with billions of parameters and data, the optimization is really very expensive.
@@ -31,4 +31,4 @@ To prevent overfitting, it is common to use L2 regularization. In addition to op
 
 
 
-# Neural Networks
+#Part 2: Neural Networks
