@@ -32,3 +32,18 @@ To prevent overfitting, it is common to use L2 regularization. In addition to op
 
 
 # Part 2: Neural Networks
+In generative models as well as in supervised learning, in the end the problem is reduced to approximating certian unknown function.
+
+## Linear functions
+## Neural Networks
+combine linear transformations with nonlinear activations
+Common activations: ReLU, sigmoid, tanh
+
+Back in days, not easy to use deep network due to 
+- In deep networks, if the derivative at each layer is on average less than 1, gradients vanish, and if it’s greater than 1, gradients explode; therefore, keeping derivatives close to 1 ensures stable gradient flow and effective learning.
+- to solve the above probem -> Residual connections: directly connecting input and output
+
+## Attention Mechanism
+input: vector-based, feature vector
+new concept: point_based: collection of data, can be viewed as (location: value)
+
